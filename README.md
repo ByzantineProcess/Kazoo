@@ -8,3 +8,8 @@ Turns out, Kahoot!'s nickname length limit is now defined (as of V2) IN THE HTML
 Anyone with half a day's experience in Inspect Element can get a nickname over 15 characters.
 
 Simply remove the `max-length="15"` tag in the nickname textbox HTML.
+
+
+
+
+later found the same thing works for jackbox games as well, will add soon:tm:
