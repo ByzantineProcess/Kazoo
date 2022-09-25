@@ -1,0 +1,16 @@
+{
+    "name": "Kazoo toolbox",
+    "version": "0.1",
+    "manifest_version": 3,
+    "description": "Kazoo homepage: https://github.com/ByzantineProcess/Kazoo",
+    "icons": {
+        "128": "icon/icon.png"
+    },
+    "action": {
+        "default_title": "Kazoo!"
+    },
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+        "service_worker": "kazoo/bg.js"
+    }
+}
