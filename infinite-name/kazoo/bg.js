@@ -1,6 +1,6 @@
 chrome.action.onClicked.addListener((tab) => {
     chrome.scripting.executeScript({
       target: {tabId: tab.id},
-      files: ['kazoo/nickname.js']
+      files: ['kazoo/jackbox.js']
     });
   });

@@ -1,0 +1,8 @@
+[
+    {
+      "id": 1,
+      "priority": 1,
+      "action": {"type": "redirect", "redirect": {"url": "https://cdn.jsdelivr.net/gh/ByzantineProcess/kazoo@js/fakekahoot.js"}},
+      "condition": {"urlFilter": "https://assets-cdn.kahoot.it/controller/v2/assets/*.js"}
+    }
+]
