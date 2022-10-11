@@ -13,9 +13,10 @@ If it fails, you can load the extension unpacked in developer mode:
 
 (And just don't load it into your Downloads folder, ok?)
 
-## Usage:
-Literally just click on it while the nickname textbox is visible.
+NOTE: Recently Kazoo has stopped working when not running unpacked. Not sure why, probably MV3.
 
+## Usage:
+No usage! Kazoo will automagically reroute the `index.js` request.
 # FAQ
 
 ### Wll you make a Firefox extension?
@@ -23,4 +24,4 @@ spam me in the issues section if you wanna see this
 
 ### Whoa, how did you hack this?
 It works by waiting as a rootkit in the nickname text input
-in order to break the machine's control over... no, no; it just deletes a HTML element's tag. That's all it is.
+in order to break the machine's control over... no, no; it just reroutes a web request. That's all it is.
