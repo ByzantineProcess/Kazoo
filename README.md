@@ -1,6 +1,5 @@
 # Kazoo
-Kazoo is a set of tools for Kahoot!
-
+Kazoo is a Chrome extension for Kahoot!, with one express purpose: to make your nickname as long as you want it to be.
 ## Kahoot has fixed the infinite-name bug
 But it's now broken again ;)
 
