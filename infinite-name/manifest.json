@@ -1,6 +1,6 @@
 {
     "name": "Kazoo!",
-    "version": "0.6",
+    "version": "1",
     "manifest_version": 3,
     "description": "Kazoo homepage: https://github.com/ByzantineProcess/Kazoo",
     "icons": {
@@ -9,18 +9,15 @@
     "action": {
         "default_title": "Kazoo!"
     },
-    "permissions": ["activeTab", "scripting", "declarativeNetRequest", "declarativeNetRequestFeedback"],
-    "background": {
-        "service_worker": "kazoo/bg.js"
-    },
+    "permissions": ["declarativeNetRequest", "declarativeNetRequestFeedback"],
     "declarative_net_request" : {
         "rule_resources" : [{
-          "id": "maxzapper",
+          "id": "zapper",
           "enabled": true,
           "path": "kazoo/zapper.json"
         }]
       },
       "host_permissions": [
-        "https://*/*"
+        "*://*.kahoot.it/*"
     ]
 }

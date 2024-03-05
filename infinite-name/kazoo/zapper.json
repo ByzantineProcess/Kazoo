@@ -2,7 +2,7 @@
     {
       "id": 1,
       "priority": 1,
-      "action": {"type": "redirect", "redirect": {"url": "https://cdn.jsdelivr.net/gh/ByzantineProcess/kazoo@js/fakekahoot.js"}},
-      "condition": {"urlFilter": "https://assets-cdn.kahoot.it/controller/v2/assets/*.js"}
+      "action": {"type": "redirect", "redirect": {"url": "https://byzantineprocess.github.io/Kazoo/fakekahoot.js"}},
+      "condition": {"regexFilter": "https://assets-cdn.kahoot.it/controller/v2/assets/index-[A-Za-z0-9]*.js"}
     }
 ]
